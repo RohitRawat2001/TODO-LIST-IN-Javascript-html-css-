@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: linear-gradient(to right, #000000, #ff0000, rgb(0, 0, 0));
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+form > h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea,
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 10px;
+  outline: none;
+  font-family: sans-serif;
+}
+
+button:hover {
+  background-color: rgb(210, 26, 176);
+  color: rgb(7, 7, 7);
+}
+button {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.tasks {
+  background-color: aquamarine;
+  font-size: large;
+  display: flex;
+  padding: 20px 20px;
+  border-radius: 22px;
+  margin-top: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.tasks > div {
+  width: 100%;
+}
+.deltebtn {
+  background-color: crimson;
+  width: 30px;
+  height: 30px;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
